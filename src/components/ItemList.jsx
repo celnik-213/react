@@ -23,7 +23,6 @@ const ItemList = () => {
         color: isLightOn ? "#000000" : "#FFFFFF",
       }}
     >
-      <p>{isLightOn ? " Światło włączone" : " Światło zgaszone"}</p>
       <button onClick={toggleLight}>Włącznik światła</button>
     </div>
   );

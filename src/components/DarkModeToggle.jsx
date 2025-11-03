@@ -23,8 +23,8 @@ const DarkModeToggle = () => {
         color: isLightOn ? "#000000" : "#FFFFFF",
       }}
     >
-      <p>{isLightOn ? " Światło włączone" : " Światło zgaszone"}</p>
-      <button onClick={toggleLight}>Włącznik światła</button>
+      <p>Tekst na stronie który zmienia sie zależnie do motywu</p>
+      <button onClick={toggleLight}>Change mode</button>
     </div>
   );
 };
