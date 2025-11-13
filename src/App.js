@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import DarkModeToggle from './components/DarkModeToggle';
 import OknoModal from './components/OknoModal';
 import OknoModalne from './components/okno_modalne';
+import Password from './components/password';
 
 function App() { 
 
@@ -17,6 +18,8 @@ function App() {
             <DarkModeToggle />
             <h1>Task 8</h1>
             <OknoModalne />
+            <h1>Task 9</h1>
+            <Password />
 
 
         </div> 
