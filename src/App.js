@@ -6,7 +6,8 @@ import OknoModal from './components/OknoModal';
 import OknoModalne from './components/okno_modalne';
 import Password from './components/password';
 import TextToogle from './components/TextToogle';
-import ShowNumber from './components/showNumber';   
+import ShowNumber from './components/showNumber';
+import Wiadomosc from './components/Wiadomosc';
 
 function App() { 
 
@@ -26,6 +27,8 @@ function App() {
             <TextToogle />
             <h1>Task 11</h1>
             <ShowNumber />
+            <h1>Task 12</h1>
+            <Wiadomosc />
         </div> 
 
     ); 
