@@ -5,6 +5,7 @@ import DarkModeToggle from './components/DarkModeToggle';
 import OknoModal from './components/OknoModal';
 import OknoModalne from './components/okno_modalne';
 import Password from './components/password';
+import TextToogle from './components/TextToogle';   
 
 function App() { 
 
@@ -20,8 +21,8 @@ function App() {
             <OknoModalne />
             <h1>Task 9</h1>
             <Password />
-
-
+            <h1>Task 10</h1>
+            <TextToogle />
         </div> 
 
     ); 
