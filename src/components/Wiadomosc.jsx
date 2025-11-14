@@ -1,20 +1,22 @@
-import { useState, useEffect, use } from "react";
+import React from "react"
+import { useState } from "react"; 
 
-const Wiadomosc = () =>   { 
+const Wiadomosc = () => {   
+
+    const [message, setMessage] = useState(false);
 
     function handleClick(score) { 
-
         if (score === 5) { 
-            alert("Bardzo dziękujemy! :)"); 
+           setMessage("Bardzo dziękujemy! :)"); 
         } else if (score > 2) { 
-            alert("Dziękujemy!"); 
+            setMessage("Dziękujemy!"); 
         } else { 
-            alert("Przykro nam :("); 
+            setMessage("Przykro nam :("); 
         } 
-    } 
+    }
     return ( 
         <>   
-            <h1>
+            <h1> 
                 Oceń usługę: 
             </h1> 
             <button onClick={() => handleClick(1)}>1</button> 
@@ -22,8 +24,8 @@ const Wiadomosc = () =>   {
             <button onClick={() => handleClick(3)}>3</button> 
             <button onClick={() => handleClick(4)}>4</button> 
             <button onClick={() => handleClick(5)}>5</button>  
-            <h2>Dzięujęmy za wystawienie opinii</h2> 
+            <h2>{message}</h2> 
         </> 
-    ); 
-}
-export default Wiadomosc; 
+    );
+}; 
+export default Wiadomosc;

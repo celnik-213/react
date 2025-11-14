@@ -8,6 +8,9 @@ import Password from './components/password';
 import TextToogle from './components/TextToogle';
 import ShowNumber from './components/showNumber';
 import Wiadomosc from './components/Wiadomosc';
+import Wyswietlanie from './components/wyswietlanie';
+import Sekcje from './components/sekcje';
+import Login  from './components/login';    
 
 function App() { 
 
@@ -29,6 +32,12 @@ function App() {
             <ShowNumber />
             <h1>Task 12</h1>
             <Wiadomosc />
+            <h1>Task 13</h1>
+            <Wyswietlanie />
+            <h1>Task 14</h1>
+            <Sekcje />
+            <h1>Task 15</h1>
+            <Login />
         </div> 
 
     ); 
