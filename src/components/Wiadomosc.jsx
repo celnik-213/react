@@ -1,6 +1,4 @@
-import React from "react"
-import { useState } from "react"; 
-
+import { useState, useEffect, use } from "react";
 const Wiadomosc = () => {   
 
     const [message, setMessage] = useState(false);
