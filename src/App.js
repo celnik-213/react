@@ -13,6 +13,7 @@ import Sekcje from './components/sekcje';
 import Login  from './components/login';  
 import Timer from './components/Timer';
 import ClickAndChangeColor from './components/ClickAndChangeColor';
+import WpiszCos from './components/WpiszCos';   
 
 function App() { 
 
@@ -44,6 +45,9 @@ function App() {
             <Timer />
             <h1>Task 17</h1>
             <ClickAndChangeColor />
+            <h1>Task 18</h1>
+            <WpiszCos />
+
         </div> 
 
     ); 
