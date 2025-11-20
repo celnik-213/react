@@ -14,7 +14,8 @@ import Login  from './components/login';
 import Timer from './components/Timer';
 import ClickAndChangeColor from './components/ClickAndChangeColor';
 import WpiszCos from './components/WpiszCos';
-import ThreeColors from './components/ThreeColors';   
+import ThreeColors from './components/ThreeColors';
+import AddList from './components/AddList';   
 
 function App() { 
 
@@ -50,6 +51,8 @@ function App() {
             <WpiszCos />
             <h1>Task 19</h1>
             <ThreeColors />
+            <h1>Task 20</h1>
+            <AddList />
 
         </div> 
 
