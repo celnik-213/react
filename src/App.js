@@ -13,7 +13,8 @@ import Sekcje from './components/sekcje';
 import Login  from './components/login';  
 import Timer from './components/Timer';
 import ClickAndChangeColor from './components/ClickAndChangeColor';
-import WpiszCos from './components/WpiszCos';   
+import WpiszCos from './components/WpiszCos';
+import ThreeColors from './components/ThreeColors';   
 
 function App() { 
 
@@ -47,6 +48,8 @@ function App() {
             <ClickAndChangeColor />
             <h1>Task 18</h1>
             <WpiszCos />
+            <h1>Task 19</h1>
+            <ThreeColors />
 
         </div> 
 

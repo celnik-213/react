@@ -4,7 +4,7 @@ const ItemList = () => {
   const [isLightOn, setIsLightOn] = useState(true);
 
   useEffect(() => {
-    document.body.style.backgroundColor = isLightOn ? "#FFFFFF" : "#000000";
+    document.body.style.Color = isLightOn ? "#FFFFFF" : "#000000";
   }, [isLightOn]);
 
   const toggleLight = () => {

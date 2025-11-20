@@ -11,7 +11,7 @@ const ClickAndChangeColor = () => {
         return randomColorString;
         
     };
-    const [color ,setColor] = useState("#ffffff");
+    const [color ,setColor] = useState(randomColor());
 
     const handleClick = () => {
         setColor(randomColor());
