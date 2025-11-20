@@ -31,7 +31,7 @@ const Timer = () => {
         <div>
             <h1>{seconds}s</h1>
             <button onClick={toggle}>
-                {isActive ? "Pause" : "Start"}
+                {isActive ? "Stop" : "Start"}
             </button>
             <button onClick={reset}>Reset</button>
         </div>

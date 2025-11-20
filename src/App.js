@@ -11,7 +11,8 @@ import Wiadomosc from './components/Wiadomosc';
 import Wyswietlanie from './components/wyswietlanie';
 import Sekcje from './components/sekcje';
 import Login  from './components/login';  
-import Timer from './components/Timer';  
+import Timer from './components/Timer';
+import ClickAndChangeColor from './components/ClickAndChangeColor';
 
 function App() { 
 
@@ -41,6 +42,8 @@ function App() {
             <Login />
             <h1>Task 16</h1>
             <Timer />
+            <h1>Task 17</h1>
+            <ClickAndChangeColor />
         </div> 
 
     ); 
