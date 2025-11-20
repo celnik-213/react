@@ -10,7 +10,8 @@ import ShowNumber from './components/showNumber';
 import Wiadomosc from './components/Wiadomosc';
 import Wyswietlanie from './components/wyswietlanie';
 import Sekcje from './components/sekcje';
-import Login  from './components/login';    
+import Login  from './components/login';  
+import Timer from './components/Timer';  
 
 function App() { 
 
@@ -38,6 +39,8 @@ function App() {
             <Sekcje />
             <h1>Task 15</h1>
             <Login />
+            <h1>Task 16</h1>
+            <Timer />
         </div> 
 
     ); 
