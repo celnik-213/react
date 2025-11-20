@@ -15,7 +15,8 @@ import Timer from './components/Timer';
 import ClickAndChangeColor from './components/ClickAndChangeColor';
 import WpiszCos from './components/WpiszCos';
 import ThreeColors from './components/ThreeColors';
-import AddList from './components/AddList';   
+import AddList from './components/AddList'; 
+import CountTo0 from './components/CountTo0';
 
 function App() { 
 
@@ -53,6 +54,8 @@ function App() {
             <ThreeColors />
             <h1>Task 20</h1>
             <AddList />
+            <h1>Task 21</h1>
+            <CountTo0 />
 
         </div> 
 

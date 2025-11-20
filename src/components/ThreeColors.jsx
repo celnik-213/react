@@ -9,9 +9,9 @@ function ThreeColors() {
         Ten tekst zmienia kolor!
       </p>
 
-      <button onClick={() => setColor("red")}>Czerwony</button>
-      <button onClick={() => setColor("green")}>Zielony</button>
-      <button onClick={() => setColor("blue")}>Niebieski</button>
+      <button style={{backgroundColor:"red"}} onClick={() => setColor("red")}>Czerwony</button>
+      <button style={{backgroundColor:"green"}} onClick={() => setColor("green")}>Zielony</button>
+      <button style={{backgroundColor:"blue"}} onClick={() => setColor("blue")}>Niebieski</button>
     </div>
   );
 }
