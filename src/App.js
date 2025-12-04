@@ -21,6 +21,7 @@ import DomyslnaWartosc from './components/DomyslnaWartosc';
 import DodanieObslugiKlikniecia from './components/DodanieObslugiKlikniecia';
 import PodswietlenieWybranegoElemenu from './components/PodswietlenieWybranegoElemenu';
 import Licznik from './components/Licznik';
+import PrzelaczanieMotywu from './components/PrzelaczanieMotywu';
 
 function App() { 
 
@@ -71,6 +72,8 @@ function App() {
             <h1>Rozdział 9</h1>
             <h1>Task 1</h1>
             <Licznik />
+            <h1>Task 2</h1>
+            <PrzelaczanieMotywu />
 
         </div> 
 
