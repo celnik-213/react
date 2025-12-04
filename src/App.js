@@ -17,6 +17,7 @@ import WpiszCos from './components/WpiszCos';
 import ThreeColors from './components/ThreeColors';
 import AddList from './components/AddList'; 
 import CountTo0 from './components/CountTo0';
+import DomyslnaWartosc from './components/DomyslnaWartosc';
 
 function App() { 
 
@@ -56,6 +57,9 @@ function App() {
             <AddList />
             <h1>Task 21</h1>
             <CountTo0 />
+            <h1>Rozdział 7</h1>
+            <h1>Task 1</h1>
+            <DomyslnaWartosc />
 
         </div> 
 

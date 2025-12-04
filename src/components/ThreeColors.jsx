@@ -10,7 +10,7 @@ function ThreeColors() {
       </p>
 
       <button style={{backgroundColor:"red", color:"white"}} onClick={() => setColor("red")}>Czerwony</button>
-      <button style={{backgroundColor:"green" , color:"white"}} onClick={() => setColor("green")}>Zielony</button>
+      <button style={{backgroundColor:"green", color:"white"}} onClick={() => setColor("green")}>Zielony</button>
       <button style={{backgroundColor:"blue", color:"white"}} onClick={() => setColor("blue")}>Niebieski</button>
     </div>
   );
