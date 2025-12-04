@@ -18,7 +18,7 @@ const ItemList = ({ items, selectedItem, onSelectItem }) => {
 };
 
 const App = () => {
-    const [selectedItem, setSelectedItem] = useState(null);
+    const [selectedItem, setSelectedItem] = useState("Kraków");
 
     const handleSelectItem = (item) => {
         setSelectedItem(item);
@@ -27,11 +27,12 @@ const App = () => {
 
     return (
         <div>
+            
             <h2>Wybierz miasto:</h2>
             <ItemList
                 items={["Warszawa", "Kraków", "Gdańsk"]}
                 onSelectItem={handleSelectItem} 
-                selectedItem="Kraków"
+                selectedItem={selectedItem}
             />
         </div>
     );

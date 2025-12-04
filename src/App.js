@@ -20,6 +20,7 @@ import CountTo0 from './components/CountTo0';
 import DomyslnaWartosc from './components/DomyslnaWartosc';
 import DodanieObslugiKlikniecia from './components/DodanieObslugiKlikniecia';
 import PodswietlenieWybranegoElemenu from './components/PodswietlenieWybranegoElemenu';
+import Licznik from './components/Licznik';
 
 function App() { 
 
@@ -67,6 +68,9 @@ function App() {
             <h1>Rozdział 8</h1>
             <h1>Task 1</h1>
             <PodswietlenieWybranegoElemenu />
+            <h1>Rozdział 9</h1>
+            <h1>Task 1</h1>
+            <Licznik />
 
         </div> 
 
