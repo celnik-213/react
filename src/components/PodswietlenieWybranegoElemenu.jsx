@@ -21,7 +21,7 @@ const App = () => {
     const [selectedItem, setSelectedItem] = useState(null);
 
     const handleSelectItem = (item) => {
-        setSelectedItem(item);    // zapisujemy wybrany element w stanie App
+        setSelectedItem(item);
         console.log(`Wybrano: ${item}`);
     };
 
@@ -30,8 +30,8 @@ const App = () => {
             <h2>Wybierz miasto:</h2>
             <ItemList
                 items={["Warszawa", "Kraków", "Gdańsk"]}
-                selectedItem={selectedItem}
-                onSelectItem={handleSelectItem}
+                onSelectItem={handleSelectItem} 
+                selectedItem="Kraków"
             />
         </div>
     );
