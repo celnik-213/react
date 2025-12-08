@@ -77,7 +77,7 @@ function App() {
             <PrzelaczanieMotywu />
             <h1>Rozdział 10</h1>
             <h1>Task 1</h1>
-            <Alert type="danger"> 
+            <Alert> 
                 <strong>Błąd!</strong> Wystąpił problem. 
             </Alert>
         </div> 
