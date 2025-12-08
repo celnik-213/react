@@ -22,6 +22,7 @@ import DodanieObslugiKlikniecia from './components/DodanieObslugiKlikniecia';
 import PodswietlenieWybranegoElemenu from './components/PodswietlenieWybranegoElemenu';
 import Licznik from './components/Licznik';
 import PrzelaczanieMotywu from './components/PrzelaczanieMotywu';
+import Alert from './components/DynamicznaKlasa';
 
 function App() { 
 
@@ -74,7 +75,11 @@ function App() {
             <Licznik />
             <h1>Task 2</h1>
             <PrzelaczanieMotywu />
-
+            <h1>Rozdział 10</h1>
+            <h1>Task 1</h1>
+            <Alert type="danger"> 
+                <strong>Błąd!</strong> Wystąpił problem. 
+            </Alert>
         </div> 
 
     ); 
