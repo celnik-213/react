@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Alert = ({type = "success", children, className=""}) => {
+const Alert = ({type = "danger", children, className=""}) => {
   return <div className={`alert alert-${type} ${className}`.trim()}>{children}</div>;
 };
 

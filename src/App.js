@@ -23,6 +23,7 @@ import PodswietlenieWybranegoElemenu from './components/PodswietlenieWybranegoEl
 import Licznik from './components/Licznik';
 import PrzelaczanieMotywu from './components/PrzelaczanieMotywu';
 import Alert from './components/DynamicznaKlasa';
+import Card from './components/KomponentCardChildren';
 
 function App() { 
 
@@ -77,9 +78,14 @@ function App() {
             <PrzelaczanieMotywu />
             <h1>Rozdział 10</h1>
             <h1>Task 1</h1>
-            <Alert> 
-                <strong>Błąd!</strong> Wystąpił problem. 
+            <Alert>
+                <strong>Błąd!</strong>To jest błąd.
             </Alert>
+            <h1>Task 2</h1>
+            <Card> 
+                <h2>Nagłówek karty</h2>
+                <p>To jest zawartość karty.</p>
+            </Card>
         </div> 
 
     ); 
