@@ -25,6 +25,7 @@ import PrzelaczanieMotywu from './components/PrzelaczanieMotywu';
 import Alert from './components/DynamicznaKlasa';
 import Card from './components/KomponentCardChildren';
 import ObslugaZdarzeniaPodwojneKlikniecie from './components/ObslugaZdarzeniaPodwojneKlikniecie';
+import RozmiaryPrzyciskow from './components/RozmiaryPrzyciskow';
 
 function App() { 
 
@@ -90,6 +91,8 @@ function App() {
             <h1>Rozdział 12</h1>
             <h1>Task 1</h1>
             <ObslugaZdarzeniaPodwojneKlikniecie />
+            <h1>Task 2</h1>
+            <RozmiaryPrzyciskow />
         </div>
 
     ); 
