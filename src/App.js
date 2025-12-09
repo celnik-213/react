@@ -24,6 +24,7 @@ import Licznik from './components/Licznik';
 import PrzelaczanieMotywu from './components/PrzelaczanieMotywu';
 import Alert from './components/DynamicznaKlasa';
 import Card from './components/KomponentCardChildren';
+import ObslugaZdarzeniaPodwojneKlikniecie from './components/ObslugaZdarzeniaPodwojneKlikniecie';
 
 function App() { 
 
@@ -86,7 +87,10 @@ function App() {
                 <h2>Nagłówek karty</h2>
                 <p>To jest zawartość karty.</p>
             </Card>
-        </div> 
+            <h1>Rozdział 12</h1>
+            <h1>Task 1</h1>
+            <ObslugaZdarzeniaPodwojneKlikniecie />
+        </div>
 
     ); 
 
