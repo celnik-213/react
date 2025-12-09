@@ -26,6 +26,8 @@ import Alert from './components/DynamicznaKlasa';
 import Card from './components/KomponentCardChildren';
 import ObslugaZdarzeniaPodwojneKlikniecie from './components/ObslugaZdarzeniaPodwojneKlikniecie';
 import RozmiaryPrzyciskow from './components/RozmiaryPrzyciskow';
+import Alert1 from './components/DodanieOpoxnionegoZamkniecia';
+import Alert2 from './components/Zadanie_13_2.jsx';
 
 function App() { 
 
@@ -93,6 +95,11 @@ function App() {
             <ObslugaZdarzeniaPodwojneKlikniecie />
             <h1>Task 2</h1>
             <RozmiaryPrzyciskow />
+            <h1>Rozdział 13</h1>
+            <h1>Task 1</h1>
+            <Alert1> </Alert1>
+            <h1>Task 2</h1>
+            <Alert2> </Alert2>
         </div>
 
     ); 
