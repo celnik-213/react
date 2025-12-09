@@ -15,9 +15,9 @@ const Button = ({ text="Kliknij mnie!" }) => {
         <div>
             <p style={{ fontSize: size === 'small' ? '12px' : size === 'medium' ? '16px' : '20px' }}>{text}</p>
             <div style={{ marginTop: '16px' }}>
-                <button onClick={() => setSize('small')} className="btn btn-secondary">Small</button>
-                <button onClick={() => setSize('medium')} className="btn btn-secondary">Medium</button>
-                <button onClick={() => setSize('large')} className="btn btn-secondary">Large</button>
+                <button style={{ backgroundColor: "red" }} onClick={() => setSize('small')} className="btn btn-secondary">Small</button>
+                <button style={{ backgroundColor: "green" }} onClick={() => setSize('medium')} className="btn btn-secondary">Medium</button>
+                <button style={{ backgroundColor: "blue" }} onClick={() => setSize('large')} className="btn btn-secondary">Large</button>
             </div>
         </div>
     );
